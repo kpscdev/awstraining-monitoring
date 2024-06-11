@@ -40,7 +40,7 @@
       ],
       "secrets": [
         {
-          "valueFrom": "<<TODO: set ARN of US secrets manager>>",
+          "valueFrom": "arn:aws:secretsmanager:eu-central-1:211125526255:secret:backend-secretsmanager-test-eu-central-1-44GX74",
           "name": "SPRING_APPLICATION_JSON"
         }
       ],
